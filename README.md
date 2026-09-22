@@ -23,10 +23,12 @@ Visit the official live agency website:
 ---
 
 ## 📬 Contact & Inquiries
-- **Founder**: Atharva | Lead Solutions Architect
-- **Inquiries**: `desireacetech@gmail.com`
-- **LinkedIn**: [DesireAce Technologies](https://www.linkedin.com/company/desireace-technologies)
-- **Discovery Calls**: [Schedule a 15-Minute Technical Consultation](https://atharvgujare.github.io/desireace-technologies/#contact)
+- **Founder & Lead Architect**: Atharva
+- **Location**: Pune, Maharashtra, India
+- **WhatsApp**: [+91 9766291055](https://wa.me/919766291055)
+- **LinkedIn**: [Atharva Gujare](https://www.linkedin.com/in/atharv-gujare)
+- **Company Email**: `desireacetech@gmail.com`
+- **Discovery Calls**: [Schedule a Technical Consultation](https://atharvgujare.github.io/desireace-technologies/contact.html)
 
 ---
 © 2026 DesireAce Technologies (DA Technologies). All rights reserved.
