@@ -1,299 +1,197 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>DesireAce Technologies — End-to-End IT Services, High-Performance Web Apps & Cloud Solutions</title>
-  <meta name="description" content="DesireAce Technologies (DA Technologies) is a premier digital engineering and IT consulting agency based in Pune, India, building high-performance web applications, enterprise C# .NET APIs, and speed modernizations for clients across the US, UK, Canada, Australia, and Europe.">
-  <meta name="keywords" content="DesireAce Technologies, DA Technologies, software development company pune, custom web application, React developer, C# ASP.NET Core, speed overhaul, IT consulting">
-  
-  <link rel="canonical" href="https://atharvgujare.github.io/desireace-technologies/">
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://atharvgujare.github.io/desireace-technologies/">
-  <meta property="og:title" content="DesireAce Technologies (DA Technologies) — High-Performance Web Applications & Cloud Systems">
-  <meta property="og:description" content="End-to-end IT services, scalable React & C# ASP.NET Core cloud systems, and guaranteed sub-second web speed overhauls for global businesses.">
-  <meta property="og:image" content="https://atharvgujare.github.io/desireace-technologies/assets/linkedin_banner.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="DesireAce Technologies (DA Technologies)">
-  <meta name="twitter:description" content="High-performance web applications and speed modernizations for US & European businesses.">
-  <meta name="twitter:image" content="https://atharvgujare.github.io/desireace-technologies/assets/linkedin_banner.jpg">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
+  <title>DesireAce Technologies — High-Performance Digital Engineering</title>
+  <meta name="description" content="DesireAce Technologies architects high-performance web applications, cloud infrastructure, and enterprise platforms for global businesses.">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
 </head>
 <body>
 
-  <!-- Top Utility Bar (Sdaemon Style) -->
-  <div class="top-bar">
-    <div class="container top-bar-inner">
-      <div class="top-bar-left">
-        <span>📍 Headquarters: Pune, Maharashtra, India</span>
-        <span>🌐 Serving Clients in US, UK, Canada, Australia & Europe</span>
-      </div>
-      <div class="top-bar-right">
-        <span>🕒 Mon - Fri: 9:30 AM - 7:30 PM IST (US/UK Overlap)</span>
-        <a href="mailto:desireacetech@gmail.com" style="color: var(--accent-blue); font-weight: 600;">✉ desireacetech@gmail.com</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Main Navigation -->
+  <!-- Navigation Header -->
   <header>
     <div class="container nav-inner">
       <a href="index.html" class="brand">
-        <img src="assets/logo.jpg" alt="DesireAce Technologies Logo">
-        <span>Desire<strong style="color: var(--accent-indigo);">Ace</strong> Technologies <span style="font-size: 0.75rem; opacity: 0.65; font-weight: 500;">(DA Tech)</span></span>
+        <img src="assets/logo.jpg" alt="DesireAce Technologies">
+        <span>DesireAce <span class="brand-badge">Tech</span></span>
       </a>
 
       <nav class="nav-links">
-        <a href="index.html" class="active">Home</a>
         <a href="services.html">Services</a>
-        <a href="portfolio.html">Case Studies</a>
-        <a href="about.html">About & Leadership</a>
+        <a href="portfolio.html">Work</a>
+        <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
 
       <div class="nav-actions">
-        <!-- Sun / Moon Theme Toggle -->
-        <button class="theme-toggle-btn" aria-label="Toggle Light / Dark Mode">☀️</button>
-        <a href="contact.html" class="btn btn-primary">Schedule Call</a>
-        <button class="mobile-menu-btn" aria-label="Open Menu">☰</button>
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme"></button>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <button class="mobile-menu-btn" aria-label="Open menu">
+          <svg viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
       </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero container reveal">
-    <div class="hero-badge">
-      <span>⚡ Enterprise Digital Engineering & Scalable Cloud Systems</span>
-    </div>
-
-    <h1>
-      Transforming Vision Into <span style="background: linear-gradient(135deg, var(--accent-indigo), var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">High-Performance</span> Web Applications & Cloud APIs
-    </h1>
-
-    <p>
-      DesireAce Technologies (DA Technologies) is a premier digital engineering consultancy based in Pune, India. We architect sub-second React.js platforms, enterprise C# ASP.NET Core cloud backends, and digital modernizations for high-growth businesses worldwide.
-    </p>
-
-    <div style="display: flex; justify-content: center; gap: 16px; margin-bottom: 48px; flex-wrap: wrap;">
-      <a href="contact.html" class="btn btn-primary" style="padding: 14px 28px; font-size: 1rem;">
-        Request Free Architecture & Speed Audit ↗
-      </a>
-      <a href="services.html" class="btn btn-secondary" style="padding: 14px 24px;">
-        Explore Engineering Services
-      </a>
-    </div>
-
-    <!-- Verified Performance Metrics -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 1050px; margin: 0 auto;">
-      <div class="glass-card" style="padding: 22px 18px; text-align: center;">
-        <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--accent-emerald);">&lt; 500ms</div>
-        <div style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;">Guaranteed Load Latency</div>
-      </div>
-      <div class="glass-card" style="padding: 22px 18px; text-align: center;">
-        <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--accent-blue);">99.98%</div>
-        <div style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;">Cloud VPS SLA Uptime</div>
-      </div>
-      <div class="glass-card" style="padding: 22px 18px; text-align: center;">
-        <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--accent-indigo);">3 Weeks</div>
-        <div style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;">Average Turnaround</div>
-      </div>
-      <div class="glass-card" style="padding: 22px 18px; text-align: center;">
-        <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--accent-amber);">100%</div>
-        <div style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;">IP & Source Code Ownership</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Core Services Preview Section -->
-  <section class="container reveal" style="padding: 60px 0;">
-    <div class="section-title">
-      <div class="section-subtitle">What We Deliver</div>
-      <h2>Enterprise IT Engineering Services</h2>
-      <p>Bespoke digital systems crafted for global scalability, military-grade security, and lightning speed.</p>
-    </div>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 28px;">
-      <!-- Service Card 1 -->
-      <div class="glass-card">
-        <div style="font-size: 2rem; margin-bottom: 16px;">💻</div>
-        <h3 style="font-family: var(--font-heading); font-size: 1.35rem; margin-bottom: 10px;">Custom Web Applications & Portals</h3>
-        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-          Turnkey customer booking systems, dispatch portals, and multi-tenant SaaS platforms built with modern React.js frontends and enterprise C# ASP.NET Core APIs.
-        </p>
-        <a href="services.html#web-apps" style="color: var(--accent-indigo); font-weight: 600; font-size: 0.88rem;">Learn More & Deliverables &rarr;</a>
+  <section class="hero reveal">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="hero-pill-dot"></span>
+        <span>Accepting Select Projects for Q4 / Q1</span>
       </div>
 
-      <!-- Service Card 2 -->
-      <div class="glass-card">
-        <div style="font-size: 2rem; margin-bottom: 16px;">⚡</div>
-        <h3 style="font-family: var(--font-heading); font-size: 1.35rem; margin-bottom: 10px;">Speed Overhauls & Core Web Vitals</h3>
-        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-          Guaranteed sub-500ms load times and Google PageSpeed 95+ score overhauls. We eliminate render-blocking scripts and slash mobile drop-offs.
-        </p>
-        <a href="services.html#speed" style="color: var(--accent-indigo); font-weight: 600; font-size: 0.88rem;">Learn More & Deliverables &rarr;</a>
+      <h1>Software engineered for scale and speed.</h1>
+      
+      <p class="hero-lead">
+        We architect high-performance web platforms, cloud APIs, and modern digital architectures for forward-thinking businesses.
+      </p>
+
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary btn-lg">Start a Project →</a>
+        <a href="portfolio.html" class="btn btn-secondary btn-lg">View Case Studies</a>
       </div>
 
-      <!-- Service Card 3 -->
-      <div class="glass-card">
-        <div style="font-size: 2rem; margin-bottom: 16px;">☁️</div>
-        <h3 style="font-family: var(--font-heading); font-size: 1.35rem; margin-bottom: 10px;">Cloud Architecture & REST APIs</h3>
-        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-          High-concurrency microservices, automated PostgreSQL databases, and secure payment integrations engineered to scale seamlessly.
-        </p>
-        <a href="services.html#cloud" style="color: var(--accent-indigo); font-weight: 600; font-size: 0.88rem;">Learn More & Deliverables &rarr;</a>
-      </div>
-    </div>
-
-    <div style="text-align: center; margin-top: 40px;">
-      <a href="services.html" class="btn btn-secondary" style="padding: 12px 28px;">
-        View All 6 Capabilities & Detailed Scopes &rarr;
-      </a>
-    </div>
-  </section>
-
-  <!-- Interactive Cost Estimator -->
-  <section class="container reveal" style="padding: 40px 0 60px;">
-    <div class="glass-card" style="background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-surface) 100%); border: 1px solid var(--border-glow); padding: 40px;">
-      <div class="section-title" style="margin-bottom: 30px;">
-        <div class="section-subtitle">Transparent Scoping</div>
-        <h2>Interactive Project Cost Calculator</h2>
-        <p>Calculate an instant baseline estimate for your project based on your architectural requirements.</p>
-      </div>
-
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: center;">
-        <div>
-          <div style="margin-bottom: 20px;">
-            <label style="display: block; font-size: 0.88rem; font-weight: 600; margin-bottom: 8px;">Project Objective</label>
-            <select id="calcObjective" onchange="calculateEstimate()" style="width: 100%; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 11px 14px; color: var(--text-main); font-family: var(--font-sans); outline: none;">
-              <option value="2500" data-days="10">Website Speed & Core Web Vitals Overhaul (Sub-500ms)</option>
-              <option value="4500" data-days="18" selected>Custom Web Application & Customer Portal (React + C# .NET)</option>
-              <option value="6500" data-days="25">Greenfield Startup MVP / Multi-tenant SaaS Platform</option>
-              <option value="3500" data-days="14">Legacy System Modernization (Paperless Migration)</option>
-            </select>
+      <!-- Minimalist Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="metrics-grid">
+          <div class="metric-item">
+            <div class="metric-value">&lt; 500ms</div>
+            <div class="metric-label">Global API Latency</div>
           </div>
-
-          <div style="margin-bottom: 20px;">
-            <label style="display: block; font-size: 0.88rem; font-weight: 600; margin-bottom: 8px;">Backend & Database Complexity</label>
-            <select id="calcBackend" onchange="calculateEstimate()" style="width: 100%; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 11px 14px; color: var(--text-main); font-family: var(--font-sans); outline: none;">
-              <option value="0">Standard Database & REST API</option>
-              <option value="800">Advanced Auth, Roles & Stripe / PayPal Checkout (+$800)</option>
-              <option value="1500">Real-Time Dispatching, WebSockets & Automated SMS/Email (+$1,500)</option>
-            </select>
+          <div class="metric-item">
+            <div class="metric-value">99.98%</div>
+            <div class="metric-label">Production SLA Uptime</div>
           </div>
-
-          <div style="margin-bottom: 20px;">
-            <label style="display: block; font-size: 0.88rem; font-weight: 600; margin-bottom: 8px;">Ongoing Cloud Retainer</label>
-            <select id="calcRetainer" onchange="calculateEstimate()" style="width: 100%; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 11px 14px; color: var(--text-main); font-family: var(--font-sans); outline: none;">
-              <option value="0">Client Manages Hosting (Self-Hosted)</option>
-              <option value="350">DesireAce 24/7 Managed Cloud Server Retainer (+$350/mo)</option>
-            </select>
+          <div class="metric-item">
+            <div class="metric-value">2–4 Wks</div>
+            <div class="metric-label">Rapid Delivery Sprint</div>
           </div>
-        </div>
-
-        <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 32px; text-align: center;">
-          <div style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Estimated Project Investment</div>
-          <div id="estimatedPrice" style="font-family: var(--font-heading); font-size: 3rem; font-weight: 800; color: var(--accent-blue); margin: 10px 0;">$4,500</div>
-          <div id="estimatedTimeline" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 24px;">⏱ Delivery Timeline: ~18 business days</div>
-          
-          <a href="contact.html" class="btn btn-primary" style="width: 100%;">
-            Lock In This Scope & Schedule Discovery Call ↗
-          </a>
-          <p style="font-size: 0.75rem; color: var(--text-subtle); margin-top: 10px;">Includes 100% source code ownership & 30-day warranty.</p>
+          <div class="metric-item">
+            <div class="metric-value">100%</div>
+            <div class="metric-label">IP & Code Ownership</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Founder & Leadership Spotlight Section -->
-  <section class="container reveal" style="padding: 40px 0 80px;">
-    <div class="glass-card" style="display: grid; grid-template-columns: 1fr 1.6fr; gap: 40px; align-items: center;">
-      <div style="text-align: center;">
-        <img src="assets/founder.jpg" alt="Atharva — Founder & Lead Solutions Architect" style="width: 100%; max-width: 320px; border-radius: 18px; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 2px solid var(--border-glow);">
-        <div style="margin-top: 14px;">
-          <h3 style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800;">Atharva</h3>
-          <p style="font-size: 0.85rem; color: var(--accent-indigo); font-weight: 700; text-transform: uppercase;">Founder & Lead Solutions Architect</p>
-          <div style="display: flex; justify-content: center; gap: 12px; margin-top: 10px;">
-            <a href="https://www.linkedin.com/company/desireace-technologies" target="_blank" rel="noopener" style="color: var(--accent-blue); font-size: 0.88rem; font-weight: 600;">LinkedIn Profile ↗</a>
-            <span style="color: var(--border-subtle);">|</span>
-            <a href="https://wa.me/919999999999?text=Hi%20Atharva%2C%20I%20came%20across%20DesireAce%20Technologies%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" style="color: #25d366; font-size: 0.88rem; font-weight: 600;">Chat on WhatsApp ↗</a>
-          </div>
-        </div>
+  <!-- Capabilities Section -->
+  <section class="section section-alt reveal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CAPABILITIES</span>
+        <h2>Engineering that drives business forward.</h2>
+        <p>Purpose-built software architectures optimized for speed, reliability, and seamless user experience.</p>
       </div>
 
-      <div>
-        <div class="section-subtitle">Leadership & Philosophy</div>
-        <h2 style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; margin-bottom: 16px;">
-          Direct Access to the Lead Architect — Zero Agency Overhead
-        </h2>
-        <p style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.7; margin-bottom: 16px;">
-          At DesireAce Technologies (DA Technologies), you never get handed off to junior account managers. I personally oversee every technical blueprint, database schema, and performance benchmark.
-        </p>
-        <p style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.7; margin-bottom: 24px;">
-          Based in Pune, India, we bridge the gap between world-class engineering discipline and responsive, transparent communication for growing businesses across North America and Europe.
-        </p>
-        
-        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-          <a href="about.html" class="btn btn-secondary">Read Founder Story &rarr;</a>
-          <a href="contact.html" class="btn btn-primary">Schedule Consultation ↗</a>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Custom Web Applications</h3>
+          <p>Full-cycle design and development of reactive enterprise dashboards, SaaS portals, and customer-facing web platforms.</p>
+          <div class="tags-list">
+            <span class="tag">React.js</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Node.js / C#</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Speed & Performance Engineering</h3>
+          <p>Eliminate slow page loads and sluggish queries. We optimize bottlenecks down to sub-second load times to boost conversion rates.</p>
+          <div class="tags-list">
+            <span class="tag">Lighthouse 95+</span>
+            <span class="tag">SSR Optimization</span>
+            <span class="tag">Edge Caching</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">☁️</div>
+          <h3>Cloud APIs & Architecture</h3>
+          <p>Scalable backend services, relational database modeling, and microservice APIs built with enterprise security standards.</p>
+          <div class="tags-list">
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Docker / VPS</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>Systems Modernization</h3>
+          <p>Re-platform legacy systems into clean, modular architectures with zero downtime and complete data integrity.</p>
+          <div class="tags-list">
+            <span class="tag">Refactoring</span>
+            <span class="tag">Security QA</span>
+            <span class="tag">CI/CD Automation</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Floating WhatsApp Direct Chat Badge -->
-  <a href="https://wa.me/919999999999?text=Hi%20Atharva%2C%20I%20visited%20DesireAce%20Technologies%20and%20would%20like%20to%20discuss%20a%20software%20project." target="_blank" rel="noopener" class="whatsapp-float">
-    <span>💬</span> Chat with Atharva on WhatsApp
-  </a>
+  <!-- Leadership Spotlight -->
+  <section class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">LEADERSHIP</span>
+        <h2>Direct technical engagement.</h2>
+        <p>No intermediaries or account managers. You collaborate directly with experienced solutions architects.</p>
+      </div>
 
-  <!-- Footer -->
+      <div class="founder-card">
+        <img src="assets/founder.jpg" alt="Atharva - Founder & Lead Solutions Architect" class="founder-photo">
+        <div class="founder-info">
+          <h3>Atharva</h3>
+          <div class="founder-title">Founder & Lead Solutions Architect</div>
+          <div class="founder-location">📍 Pune, Maharashtra, India &nbsp;•&nbsp; Serving US, UK & Global Clients</div>
+          <p class="founder-bio">
+            Specializing in high-throughput enterprise systems, modern React frontends, and cloud engineering. We build software with the rigorous speed, reliability, and precision required by modern global enterprises.
+          </p>
+          <div class="founder-actions">
+            <a href="https://wa.me/919999999999?text=Hi%20Atharva%2C%20I%20would%20like%20to%20discuss%20a%20software%20project." target="_blank" rel="noopener" class="btn btn-whatsapp">Chat on WhatsApp ↗</a>
+            <a href="https://www.linkedin.com/company/desireace-technologies" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn Profile ↗</a>
+            <a href="contact.html" class="btn btn-secondary">Book Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section section-alt reveal" style="text-align: center;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 32px;">
+        <span class="section-tag">NEXT STEPS</span>
+        <h2>Ready to build something exceptional?</h2>
+        <p>Let's discuss your project goals, technical requirements, and delivery timeline.</p>
+      </div>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="contact.html" class="btn btn-primary btn-lg">Schedule a Consultation →</a>
+        <a href="mailto:desireacetech@gmail.com" class="btn btn-secondary btn-lg">desireacetech@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Minimalist Footer -->
   <footer>
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <div class="brand" style="margin-bottom: 14px;">
-            <img src="assets/logo.jpg" alt="DesireAce Technologies">
-            <span>Desire<strong style="color: var(--accent-indigo);">Ace</strong> Technologies</span>
-          </div>
-          <p style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px;">
-            End-to-end digital engineering and software modernization consultancy. Building ultra-fast web platforms, C# ASP.NET Core cloud backends, and customer portals for US, UK, Canadian & European enterprises.
-          </p>
-          <div style="font-size: 0.8rem; color: var(--text-muted);">
-            📍 Pune, Maharashtra, India | ✉ <a href="mailto:desireacetech@gmail.com" style="color: var(--accent-blue);">desireacetech@gmail.com</a>
-          </div>
-        </div>
-
-        <div class="footer-col">
-          <h5>Services</h5>
-          <ul>
-            <li><a href="services.html#web-apps">Custom Web Applications</a></li>
-            <li><a href="services.html#speed">Speed & Core Web Vitals</a></li>
-            <li><a href="services.html#cloud">C# .NET Cloud APIs</a></li>
-            <li><a href="services.html#migration">Legacy Modernization</a></li>
-            <li><a href="services.html#retainers">24/7 Cloud Retainers</a></li>
-          </ul>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>DesireAce Technologies</h4>
+          <p>Enterprise digital engineering and cloud architectures for modern global businesses.</p>
         </div>
 
         <div class="footer-col">
           <h5>Navigation</h5>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services & Pricing</a></li>
+            <li><a href="services.html">Services</a></li>
             <li><a href="portfolio.html">Case Studies</a></li>
             <li><a href="about.html">About & Leadership</a></li>
             <li><a href="contact.html">Contact Hub</a></li>
@@ -301,23 +199,38 @@
         </div>
 
         <div class="footer-col">
+          <h5>Core Services</h5>
+          <ul>
+            <li><a href="services.html">Custom Web Apps</a></li>
+            <li><a href="services.html">Performance Optimization</a></li>
+            <li><a href="services.html">Cloud Architecture</a></li>
+            <li><a href="services.html">Monthly Engineering Retainers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
           <h5>Direct Contact</h5>
           <ul>
-            <li><strong>Founder:</strong> Atharva</li>
-            <li><strong>Email:</strong> <a href="mailto:desireacetech@gmail.com">desireacetech@gmail.com</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/desireace-technologies" target="_blank" rel="noopener">DesireAce Technologies ↗</a></li>
-            <li><strong>WhatsApp:</strong> Available 24/7 for Global Clients</li>
-            <li><span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #10b981; margin-right: 6px;"></span> Actively Accepting New Projects</li>
+            <li><a href="mailto:desireacetech@gmail.com">desireacetech@gmail.com</a></li>
+            <li><a href="https://wa.me/919999999999" target="_blank" rel="noopener">WhatsApp Consultation</a></li>
+            <li><a href="https://www.linkedin.com/company/desireace-technologies" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><span>Pune, Maharashtra, India</span></li>
           </ul>
         </div>
       </div>
 
-      <div style="border-top: 1px solid var(--border-subtle); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 0.8rem;">
-        <p>© 2026 DesireAce Technologies (DA Technologies). All rights reserved.</p>
-        <p>Engineered with React.js, C# ASP.NET Core & Python FastAPI.</p>
+      <div class="footer-bottom">
+        <span>© 2026 DesireAce Technologies (DA Technologies). All rights reserved.</span>
+        <span>Delivering high-performance software globally.</span>
       </div>
     </div>
   </footer>
+
+  <!-- Subtle Floating WhatsApp -->
+  <a href="https://wa.me/919999999999?text=Hi%20Atharva%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="whatsapp-float">
+    <span>💬</span>
+    <span>WhatsApp Atharva</span>
+  </a>
 
   <script src="js/main.js"></script>
 </body>
