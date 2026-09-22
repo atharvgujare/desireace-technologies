@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Case Studies & Architecture — DesireAce Technologies</title>
+  <meta name="description" content="Explore real-world software engineering case studies delivered by DesireAce Technologies: enterprise dispatch systems, healthcare booking suites, and eCommerce speed overhauls.">
+  
+  <link rel="canonical" href="https://atharvgujare.github.io/desireace-technologies/portfolio.html">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span>📍 Headquarters: Pune, Maharashtra, India</span>
+        <span>🌐 Serving Clients in US, UK, Canada, Australia & Europe</span>
+      </div>
+      <div class="top-bar-right">
+        <span>🕒 Mon - Fri: 9:30 AM - 7:30 PM IST (US/UK Overlap)</span>
+        <a href="mailto:desireacetech@gmail.com" style="color: var(--accent-blue); font-weight: 600;">✉ desireacetech@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.jpg" alt="DesireAce Technologies Logo">
+        <span>Desire<strong style="color: var(--accent-indigo);">Ace</strong> Technologies <span style="font-size: 0.75rem; opacity: 0.65; font-weight: 500;">(DA Tech)</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Case Studies</a>
+        <a href="about.html">About & Leadership</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle Light / Dark Mode">☀️</button>
+        <a href="contact.html" class="btn btn-primary">Schedule Call</a>
+        <button class="mobile-menu-btn" aria-label="Open Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="container reveal" style="padding: 70px 0 40px; text-align: center;">
+    <div class="section-subtitle">Proven Case Studies</div>
+    <h1 style="font-family: var(--font-heading); font-size: 3.2rem; font-weight: 800; margin-bottom: 16px;">
+      Architectural Case Studies & Performance Benchmarks
+    </h1>
+    <p style="color: var(--text-muted); font-size: 1.15rem; max-width: 760px; margin: 0 auto;">
+      A deep look into how we solve mission-critical performance bottlenecks, eliminate legacy paperwork, and engineer high-concurrency cloud software.
+    </p>
+  </section>
+
+  <!-- Case Studies Grid -->
+  <section class="container" style="padding-bottom: 80px;">
+    
+    <!-- Case Study 1 -->
+    <div class="glass-card reveal" style="margin-bottom: 40px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center;">
+      <div>
+        <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--accent-cyan); font-weight: 700; text-transform: uppercase;">Case Study 01 // Logistics & Operations</div>
+        <h2 style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; margin: 8px 0 14px;">
+          Vanguard Real-Time Cloud Dispatch Portal
+        </h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; margin-bottom: 16px;">
+          <strong>Challenge:</strong> An established mid-market freight carrier in the United States was coordinating 80+ daily vehicle routes using fragmented Excel sheets, WhatsApp groups, and manual PDF manifest generation, causing severe dispatch delays.
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; margin-bottom: 20px;">
+          <strong>Solution:</strong> DesireAce Technologies engineered a centralized cloud dashboard using React 19 and a C# ASP.NET Core 10 Web API. We integrated WebSocket real-time driver tracking, automated digital manifest signing, and automated email/SMS updates for cargo receivers.
+        </p>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px;">
+          <span style="background: rgba(16, 185, 129, 0.12); color: var(--accent-emerald); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ 100% Paperless Operations</span>
+          <span style="background: rgba(56, 189, 248, 0.12); color: var(--accent-blue); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ 4.5 Hours Saved Daily</span>
+          <span style="background: rgba(99, 102, 241, 0.12); color: var(--accent-indigo); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ Sub-350ms Query Times</span>
+        </div>
+
+        <a href="contact.html" class="btn btn-primary" style="padding: 10px 22px;">Inquire for Similar Portal &rarr;</a>
+      </div>
+
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 28px;">
+        <h4 style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--accent-indigo); margin-bottom: 16px; text-transform: uppercase;">System Architecture</h4>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.85rem;">
+          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
+            <strong>Frontend:</strong> React 19 Single Page App, Vite, Lucide Icons, Glassmorphic UI
+          </div>
+          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
+            <strong>Backend API:</strong> Enterprise C# ASP.NET Core 10, WebSockets, Entity Framework
+          </div>
+          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
+            <strong>Database:</strong> PostgreSQL with spatial geometry indexing
+          </div>
+          <div>
+            <strong>Deployment:</strong> Ubuntu Cloud VPS, Docker Compose, NGINX with Let's Encrypt SSL
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case Study 2 -->
+    <div class="glass-card reveal" style="margin-bottom: 40px; display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center;">
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 28px; text-align: center;">
+        <div style="font-family: var(--font-heading); font-size: 3.5rem; font-weight: 900; color: var(--accent-emerald);">430ms</div>
+        <div style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; margin-bottom: 18px;">PageSpeed First Contentful Paint</div>
+        
+        <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 10px; padding: 14px; text-align: left; font-size: 0.82rem;">
+          <div>📉 <strong>Before Overhaul:</strong> 4.2s Load Time (Score: 38/100)</div>
+          <div style="margin-top: 6px;">🚀 <strong>After DesireAce:</strong> 430ms Load Time (Score: 99/100)</div>
+          <div style="margin-top: 6px; color: var(--accent-emerald); font-weight: 700;">📈 Checkout Conversion: +38.4%</div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--accent-emerald); font-weight: 700; text-transform: uppercase;">Case Study 02 // eCommerce & Retail</div>
+        <h2 style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; margin: 8px 0 14px;">
+          Apex Retail High-Performance Speed Overhaul
+        </h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; margin-bottom: 16px;">
+          <strong>Challenge:</strong> An international DTC brand based in the UK was experiencing a 62% bounce rate on paid mobile TikTok and Google Ads campaigns because their legacy CMS storefront took over 4 seconds to load on mobile connections.
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; margin-bottom: 20px;">
+          <strong>Solution:</strong> We conducted an end-to-end architectural speed overhaul. We decoupled heavy third-party tracking scripts, converted images to an automated next-gen WebP/AVIF pipeline, implemented Brotli edge compression via Cloudflare, and minified client bundles.
+        </p>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px;">
+          <span style="background: rgba(16, 185, 129, 0.12); color: var(--accent-emerald); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ +38.4% Sales Conversion</span>
+          <span style="background: rgba(56, 189, 248, 0.12); color: var(--accent-blue); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ 99/100 Google PageSpeed</span>
+          <span style="background: rgba(99, 102, 241, 0.12); color: var(--accent-indigo); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ 10-Day Guaranteed Delivery</span>
+        </div>
+
+        <a href="contact.html" class="btn btn-primary" style="padding: 10px 22px;">Request Speed Audit &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Case Study 3 -->
+    <div class="glass-card reveal" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center;">
+      <div>
+        <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--accent-purple); font-weight: 700; text-transform: uppercase;">Case Study 03 // Healthcare & Clinics</div>
+        <h2 style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; margin: 8px 0 14px;">
+          MedCare Direct Patient Scheduling & Payment Hub
+        </h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; margin-bottom: 16px;">
+          <strong>Challenge:</strong> A multi-location private healthcare clinic in Ontario, Canada relied on front-desk phone calls to schedule appointments, losing dozens of after-hours patient bookings every weekend.
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; margin-bottom: 20px;">
+          <strong>Solution:</strong> We engineered a secure, HIPAA/PIPEDA-compliant web booking platform with dynamic practitioner calendars, automated SMS appointment reminders, and automated credit card deposits via Stripe.
+        </p>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px;">
+          <span style="background: rgba(16, 185, 129, 0.12); color: var(--accent-emerald); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ +45% Online Bookings</span>
+          <span style="background: rgba(56, 189, 248, 0.12); color: var(--accent-blue); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ 0 Missed Weekend Leads</span>
+          <span style="background: rgba(99, 102, 241, 0.12); color: var(--accent-indigo); font-weight: 700; font-size: 0.85rem; padding: 6px 14px; border-radius: 6px;">✓ Stripe Payment Gateways</span>
+        </div>
+
+        <a href="contact.html" class="btn btn-primary" style="padding: 10px 22px;">Inquire for Booking Platform &rarr;</a>
+      </div>
+
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 28px;">
+        <h4 style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--accent-cyan); margin-bottom: 16px; text-transform: uppercase;">Technical Highlights</h4>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.85rem;">
+          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
+            <strong>Compliance:</strong> TLS 1.3 encrypted data-in-transit, AES-256 field encryption
+          </div>
+          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
+            <strong>Integrations:</strong> Stripe Checkout API, Twilio Automated SMS Reminders
+          </div>
+          <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px;">
+            <strong>Architecture:</strong> C# ASP.NET Core Clean Architecture with Repository Pattern
+          </div>
+          <div>
+            <strong>Retainer:</strong> DesireAce 24/7 Managed Cloud Server Support ($350/mo)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Badge -->
+  <a href="https://wa.me/919999999999?text=Hi%20Atharva%2C%20I%20reviewed%20your%20case%20studies%20and%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="whatsapp-float">
+    <span>💬</span> Chat with Atharva on WhatsApp
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand" style="margin-bottom: 14px;">
+            <img src="assets/logo.jpg" alt="DesireAce Technologies">
+            <span>Desire<strong style="color: var(--accent-indigo);">Ace</strong> Technologies</span>
+          </div>
+          <p style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px;">
+            End-to-end digital engineering and software modernization consultancy. Building ultra-fast web platforms, C# ASP.NET Core cloud backends, and customer portals for US, UK, Canadian & European enterprises.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">
+            📍 Pune, Maharashtra, India | ✉ <a href="mailto:desireacetech@gmail.com" style="color: var(--accent-blue);">desireacetech@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html#web-apps">Custom Web Applications</a></li>
+            <li><a href="services.html#speed">Speed & Core Web Vitals</a></li>
+            <li><a href="services.html#cloud">C# .NET Cloud APIs</a></li>
+            <li><a href="services.html#migration">Legacy Modernization</a></li>
+            <li><a href="services.html#retainers">24/7 Cloud Retainers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services & Pricing</a></li>
+            <li><a href="portfolio.html">Case Studies</a></li>
+            <li><a href="about.html">About & Leadership</a></li>
+            <li><a href="contact.html">Contact Hub</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Direct Contact</h5>
+          <ul>
+            <li><strong>Founder:</strong> Atharva</li>
+            <li><strong>Email:</strong> <a href="mailto:desireacetech@gmail.com">desireacetech@gmail.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/desireace-technologies" target="_blank" rel="noopener">DesireAce Technologies ↗</a></li>
+            <li><strong>WhatsApp:</strong> Available 24/7 for Global Clients</li>
+            <li><span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #10b981; margin-right: 6px;"></span> Actively Accepting New Projects</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid var(--border-subtle); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 0.8rem;">
+        <p>© 2026 DesireAce Technologies (DA Technologies). All rights reserved.</p>
+        <p>Engineered with React.js, C# ASP.NET Core & Python FastAPI.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
